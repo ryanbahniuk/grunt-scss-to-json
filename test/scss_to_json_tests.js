@@ -12,7 +12,7 @@ function generateErrorMessage(filename) {
 }
 
 grunt.util.spawn({
-  cmd: "grunt",
+  cmd: "./node_modules/.bin/grunt",
   args: ["test"]
 }, function(error, result) {
   assert.strictEqual(result.code, 0);
