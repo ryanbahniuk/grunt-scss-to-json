@@ -1,0 +1,46 @@
+{
+  "name": "grunt-scss-to-json",
+  "description": "A grunt plugin that uses scss-to-json and writes the JSON to the file system.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ryanbahniuk/grunt-scss-to-json",
+  "author": {
+    "name": "Ryan Bahniuk",
+    "email": "ryan.bahniuk@gmail.com",
+    "url": "http://bahni.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanbahniuk/grunt-scss-to-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanbahniuk/grunt-scss-to-json/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ryanbahniuk/grunt-scss-to-json/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node test/scss_to_json_tests.js"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.5.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "scss",
+    "json"
+  ],
+  "dependencies": {
+    "scss-to-json": "^1.0.0"
+  }
+}
