@@ -22,7 +22,7 @@
     }
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "NODE_ENV=test node test/scss_to_json_tests.js"
