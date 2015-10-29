@@ -42,6 +42,6 @@
     "json"
   ],
   "dependencies": {
-    "scss-to-json": "^1.0.0"
+    "scss-to-json": "^1.0.1"
   }
 }
