@@ -1,7 +1,7 @@
 {
   "name": "grunt-scss-to-json",
   "description": "A grunt plugin that uses scss-to-json and writes the JSON to the file system.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/ryanbahniuk/grunt-scss-to-json",
   "author": {
     "name": "Ryan Bahniuk",
