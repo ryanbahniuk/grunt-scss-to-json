@@ -2,9 +2,9 @@ $first: 52px;
 $second-variable: red;
 $global-variable: #123 !global; // inline comment here
 $references: $second-variable;
-$scss-function: lighten(#123, 10%);
+$scss-function: str-length('hello');
 // some comments in here
-$scss-function-with-variable: darken($global-variable, 5%);
+$scss-function-with-variable: quote($second-variable);
 $image: url(sample.svg);
 $image-with-quotes: url('sample.svg');
 $calculation: $first - 12px;
