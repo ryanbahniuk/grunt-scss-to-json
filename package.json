@@ -1,5 +1,5 @@
 {
-  "name": "grunt-scss-to-json",
+  "name": "@enp/grunt-scss-to-json",
   "description": "A grunt plugin that uses scss-to-json and writes the JSON to the file system.",
   "version": "1.0.1",
   "homepage": "https://github.com/ryanbahniuk/grunt-scss-to-json",
